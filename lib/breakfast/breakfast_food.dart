@@ -19,8 +19,8 @@ class _BreakFastFoodState extends State<BreakFastFood> {
     final foods=foodData.items;
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.red,
-        title: Text('বিরিয়ানি/খিচুড়ি'),
+        backgroundColor: Colors.orange,
+        title: Text('বিনাস্তা আইটেম '),
       ),
       body: GridView.builder(
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(

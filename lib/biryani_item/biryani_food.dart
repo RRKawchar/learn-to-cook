@@ -19,7 +19,7 @@ class _BiryaniFoodState extends State<BiryaniFood> {
     final foods=foodData.items;
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.orange,
         title: Text('বিরিয়ানি/খিচুড়ি'),
       ),
       body: GridView.builder(

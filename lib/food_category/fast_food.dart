@@ -20,7 +20,7 @@ class _FastFoodState extends State<FastFood> {
     final foods=foodData.items;
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.orange,
         title: Text('ফাস্ট ফুড আইটেম '),
       ),
       body: GridView.builder(

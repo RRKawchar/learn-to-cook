@@ -19,8 +19,8 @@ class _FishFoodState extends State<FishFood> {
     final foods=foodData.items;
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.red,
-        title: Text('বিরিয়ানি/খিচুড়ি'),
+        backgroundColor: Colors.orange,
+        title: Text('বমাছের তরকারি '),
       ),
       body: GridView.builder(
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
