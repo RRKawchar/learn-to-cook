@@ -18,21 +18,20 @@ class AboutApp extends StatelessWidget {
             width: double.infinity,
             //color: Colors.purple,
             alignment: Alignment.center,
-            margin: EdgeInsets.all(20),
-            padding: EdgeInsets.all(30),
+            // margin: EdgeInsets.all(20),
+            // padding: EdgeInsets.all(30),
             decoration: BoxDecoration(
               border: Border.all(color: Colors.white, width: 3),
             ),
-            child: ListView(
+            child: Column(
 
               children: [
-
+                SizedBox(height: 20,),
                 Text('রান্না রেসিপি',
                 style: TextStyle(fontSize: 30.0,color: Colors.blueAccent),),
 
+                SizedBox(height: 20,),
                 Container(
-                  height:350,
-                  width: MediaQuery.of(context).size.width,
                  // color: Colors.white,
                   margin: EdgeInsets.all(20),
                   padding: EdgeInsets.all(30),
@@ -44,6 +43,7 @@ class AboutApp extends StatelessWidget {
                       ' সবজি তরকারি ,বিভিন্ন আইটেম নাস্তা  রেসিপি ।',
                     style: TextStyle(fontSize: 20.0,color: Colors.blueAccent),),
                 ),
+                SizedBox(height: 20,),
 
                 Padding(
                   padding: const EdgeInsets.only(left: 80.0),

@@ -86,8 +86,9 @@ class _FoodOverViewScreenState extends State<FoodOverViewScreen> {
               ListTile(
 
                 title: Text('ফাস্ট ফুড ',
-                style: TextStyle(fontSize: 20.0,color: Colors.red,fontWeight: FontWeight.bold),),
-                trailing: Icon(Icons.arrow_forward,color: Colors.red,size: 20.0,),
+                style: TextStyle(fontSize: 20.0,color: Colors.indigoAccent,fontWeight: FontWeight.bold),),
+                trailing: Icon(Icons.arrow_forward,color: Colors.indigoAccent,size: 20.0,),
+                leading: Icon(Icons.arrow_forward_ios,color: Colors.indigoAccent,size: 20.0,),
                 onTap: (){
                   print('fast food page');
                   Navigator.push(context, MaterialPageRoute(builder: (context){return FastFood();}));
@@ -95,8 +96,9 @@ class _FoodOverViewScreenState extends State<FoodOverViewScreen> {
               ),
               ListTile(
                 title: Text('মাংস/গোস্ত তরকারি ',
-                  style: TextStyle(fontSize: 20.0,color: Colors.red,fontWeight: FontWeight.bold),),
-                trailing: Icon(Icons.arrow_forward,color: Colors.red,size: 20.0,),
+                  style: TextStyle(fontSize: 20.0,color: Colors.indigoAccent,fontWeight: FontWeight.bold),),
+                trailing: Icon(Icons.arrow_forward,color: Colors.indigoAccent,size: 20.0,),
+                leading: Icon(Icons.arrow_forward_ios,color: Colors.indigoAccent,size: 20.0,),
                 onTap: (){
                   print('meat and beef curry page');
                   Navigator.push(context, MaterialPageRoute(builder: (context){return MeatAndBeefCurry();}));
@@ -104,8 +106,9 @@ class _FoodOverViewScreenState extends State<FoodOverViewScreen> {
               ),
               ListTile(
                 title: Text('বিরিয়ানি/খিচুড়ি',
-                  style: TextStyle(fontSize: 20.0,color: Colors.red,fontWeight: FontWeight.bold),),
-                trailing: Icon(Icons.arrow_forward,color: Colors.red,size: 20.0,),
+                  style: TextStyle(fontSize: 20.0,color: Colors.indigoAccent,fontWeight: FontWeight.bold),),
+                trailing: Icon(Icons.arrow_forward,color: Colors.indigoAccent,size: 20.0,),
+                leading: Icon(Icons.arrow_forward_ios,color: Colors.indigoAccent,size: 20.0,),
                 onTap: (){
                   print('This is biryani');
                   Navigator.push(context, MaterialPageRoute(builder: (context){return BiryaniFood();}));
@@ -113,8 +116,9 @@ class _FoodOverViewScreenState extends State<FoodOverViewScreen> {
               ),
               ListTile(
                 title: Text('মাছের তরকারি',
-                  style: TextStyle(fontSize: 20.0,color: Colors.red,fontWeight: FontWeight.bold),),
-                trailing: Icon(Icons.arrow_forward,color: Colors.red,size: 20.0,),
+                  style: TextStyle(fontSize: 20.0,color: Colors.indigoAccent,fontWeight: FontWeight.bold),),
+                trailing: Icon(Icons.arrow_forward,color: Colors.indigoAccent,size: 20.0,),
+                leading: Icon(Icons.arrow_forward_ios,color: Colors.indigoAccent,size: 20.0,),
                 onTap: (){
                   print('this is Fish curry');
                   Navigator.push(context, MaterialPageRoute(builder: (context){return FishFood();}));
@@ -122,8 +126,9 @@ class _FoodOverViewScreenState extends State<FoodOverViewScreen> {
               ),
               ListTile(
                 title: Text('সবজি/ভাজি তরকারি',
-                  style: TextStyle(fontSize: 20.0,color: Colors.red,fontWeight: FontWeight.bold),),
-                trailing: Icon(Icons.arrow_forward,color: Colors.red,size: 20.0,),
+                  style: TextStyle(fontSize: 20.0,color: Colors.indigoAccent,fontWeight: FontWeight.bold),),
+                trailing: Icon(Icons.arrow_forward,color: Colors.indigoAccent,size: 20.0,),
+                leading: Icon(Icons.arrow_forward_ios,color: Colors.indigoAccent,size: 20.0,),
                 onTap: (){
                   print('this is vegitable curry');
                   Navigator.push(context, MaterialPageRoute(builder: (context){return vegetableFood();}));
@@ -131,8 +136,9 @@ class _FoodOverViewScreenState extends State<FoodOverViewScreen> {
               ),
               ListTile(
                 title: Text('নাস্তা আইটেম ',
-                  style: TextStyle(fontSize: 20.0,color: Colors.red,fontWeight: FontWeight.bold),),
-                trailing: Icon(Icons.arrow_forward,color: Colors.red,size: 20.0,),
+                  style: TextStyle(fontSize: 20.0,color: Colors.indigoAccent,fontWeight: FontWeight.bold),),
+                trailing: Icon(Icons.arrow_forward,color: Colors.indigoAccent,size: 20.0,),
+                leading: Icon(Icons.arrow_forward_ios,color: Colors.indigoAccent,size: 20.0,),
                 onTap: (){
                   print('this is breakfast ');
                   Navigator.push(context, MaterialPageRoute(builder: (context){return BreakFastFood();}));
@@ -140,8 +146,9 @@ class _FoodOverViewScreenState extends State<FoodOverViewScreen> {
               ),
               ListTile(
                 title: Text('কেক আইটেম',
-                  style: TextStyle(fontSize: 20.0,color: Colors.red,fontWeight: FontWeight.bold),),
-                trailing: Icon(Icons.arrow_forward,color: Colors.red,size: 20.0,),
+                  style: TextStyle(fontSize: 20.0,color: Colors.indigoAccent,fontWeight: FontWeight.bold),),
+                trailing: Icon(Icons.arrow_forward,color: Colors.indigoAccent,size: 20.0,),
+                leading: Icon(Icons.arrow_forward_ios,color: Colors.indigoAccent,size: 20.0,),
                 onTap: (){
                   print('this is Cake items ');
                   Navigator.push(context, MaterialPageRoute(builder: (context){return CakeFood();}));
@@ -149,8 +156,9 @@ class _FoodOverViewScreenState extends State<FoodOverViewScreen> {
               ),
               ListTile(
                 title: Text('জুস আইটেম',
-                  style: TextStyle(fontSize: 20.0,color: Colors.red,fontWeight: FontWeight.bold),),
-                trailing: Icon(Icons.arrow_forward,color: Colors.red,size: 20.0,),
+                  style: TextStyle(fontSize: 20.0,color: Colors.indigoAccent,fontWeight: FontWeight.bold),),
+                trailing: Icon(Icons.arrow_forward,color: Colors.indigoAccent,size: 20.0,),
+                leading: Icon(Icons.arrow_forward_ios,color: Colors.indigoAccent,size: 20.0,),
                 onTap: (){
                   print('this is Juice items ');
                   Navigator.push(context, MaterialPageRoute(builder: (context){return JuiceFood();}));
@@ -160,8 +168,9 @@ class _FoodOverViewScreenState extends State<FoodOverViewScreen> {
               SizedBox(height: 20.0,),
               ListTile(
                 title: Text('About',
-                  style: TextStyle(fontSize: 20.0,color: Colors.red,fontWeight: FontWeight.bold),),
-                trailing: Icon(Icons.arrow_forward,color: Colors.red,size: 20.0,),
+                  style: TextStyle(fontSize: 20.0,color: Colors.indigoAccent,fontWeight: FontWeight.bold),),
+                trailing: Icon(Icons.arrow_forward,color: Colors.indigoAccent,size: 20.0,),
+                leading: Icon(Icons.arrow_forward_ios,color: Colors.indigoAccent,size: 20.0,),
                 onTap: (){
                   print('this is about ');
                   Navigator.push(context, MaterialPageRoute(builder: (context){return AboutApp();}));
